@@ -1,0 +1,327 @@
+/*********************** Resets */
+ul {
+	padding:0;
+	margin:0 0 20px 0;
+	list-style:none;
+}
+
+h1, h2 {
+	padding:0;
+	margin:0 0 20px 0;
+	font-weight:normal;
+}
+
+p {
+	padding:0;
+	margin:0 0 20px 0;
+}
+
+a:link, a:visited {
+	text-decoration:underline;
+	color:#000;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+ul li {
+	padding:5px 0;
+}
+
+ul li input[type="text"], ul li input[type="password"] {
+	width:200px;
+}
+
+/************************* Headers */
+h1 {
+	font-size:1.8em;
+}
+
+h2 {
+	font-size:1.4em;
+}
+
+.logo {
+	font:2em Arial;
+	margin:0 0 10px 0;
+	padding:0;
+	width:200px;
+	color:#fff;
+}
+
+/********************** Containers */
+body {
+	background:lightslategray;
+	font-family:Arial;
+	font-size:0.8em;
+}
+
+#container, footer {
+	background:#fff;
+	width:980px;
+	margin:0 auto;
+	padding:20px;
+	
+}
+
+header {
+	width:940px;
+	padding:10px;
+	margin:0 auto 10px auto;
+}
+
+#container {
+	overflow: auto;
+	border-radius:5px 5px 0 0;
+}
+
+footer {
+	max-height: 10px;
+	border-radius:0 0 5px 5px;
+	border-top:1px dashed #ddd;
+	color:#999;
+	
+}
+
+.widget {
+	margin-bottom:20px;
+}
+
+.widget h2 {
+	margin:0 0 10px 0;
+	padding:0 5px;
+	font-weight:normal;
+	border-bottom:1px solid #ddd;
+}
+
+.widget .inner {
+	margin:0 10px;
+}
+
+section, register, change_password_form, profile, categories {
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+.categories {
+	max-width: 400px ;
+	margin: 0px;
+	padding: 0px;
+}
+
+.user_container {
+	display: block;
+	float: right;
+	width: 400px ;
+	margin-right: 27px;
+	margin-top: 10px;
+	padding: 10px;
+	border:1px dashed #aaa;
+	 
+}
+
+#profile_discription {
+	display: block;
+	float: left;
+	height: 160px;
+	width: 220px;
+	margin: 0px;
+	padding: 10px;
+	border:1px solid #aaa;
+}
+
+#profile {
+	height:180px;
+	width:140px;
+	margin: 0px;
+	border:1px solid gray;
+	float: right;
+}
+
+/****************** Navigation */
+nav {
+	float:left;
+}
+
+nav ul {
+	margin:0;
+}
+
+nav ul li {
+	display:inline;
+	margin-right:10px;
+}
+
+nav ul li a {
+	text-decoration:none;
+}
+
+nav ul li.current {
+	font-weight:bold;
+}
+
+nav ul li a.last {
+	border-right:0;
+}
+
+/******************** Aside (user profile) */
+aside {
+	width:260px;
+	float:left;
+	border-right:1px dashed #aaa;
+	padding-left:0px;
+	margin-right: 20px;
+	overflow: auto;
+}
+
+.profile_img {
+	background: #f5f5f5;
+	border: 1px dashed; #ccc;
+	padding: 5px;
+}
+
+.profile_img img {
+	width: 100%;
+	max-height: 250px;
+}
+
+/******************** Aside (Right Adverts) */
+.adverts {
+	width:160px;
+	float:right;
+	border-left:1px dashed #aaa;
+	padding-left:15px;
+	margin-right: 0px;
+}
+
+
+/********************** Forum*/
+.cat_links {
+	display: block;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin-bottom: 5px;
+	background-color: #f5f5f5;
+}
+
+.cat_links:hover {
+	background-color: #999;
+}
+
+.chat .message a {
+	color: slategrey;
+}
+
+.chat .message p {
+	margin: 5px 0;
+}
+
+
+/********************** Topics */
+
+.topics_heading {
+width: 400px;
+  height: 200px;
+  border: 1px gray solid;
+    padding: 5px;
+	margin: 5px;
+	border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border: 1px solid #800000;
+box-shadow:1px 2px 4px lightslategray;
+
+	
+}
+
+.topic_contaner{
+width: 400px;
+  height: 200px;
+  border: 1px gray solid;
+    padding: 5px;
+	margin: 5px;
+	border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border: 1px solid #800000;
+box-shadow:1px 2px 4px lightslategray;
+
+}
+
+.topic_content {
+  width: 260px;
+  height: 135px;
+  float: left;
+  outline: 1px gray dashed;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+.topic_user {
+  width: 100px;
+  height: 135px;
+  float: right;
+  outline: 1px gray dashed;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+.topic_reply_field {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	margin: 5px;
+	resize:none;
+	font-family: Tahoma, sans-serif;
+	background-image: url(bg.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	
+	}
+
+/********************** Login */
+#login li.link {
+	margin-top:5px;
+}
+
+/************************ Misc */
+.search_container {
+	float: right;
+}
+
+.search_field, .dropdown, .result	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 200px;
+}
+
+.search_field	{
+	padding: 4px;
+	border: 1px solid #333;
+}
+
+.result	{
+	width: 210px;
+	list-style: none;
+}
+
+.result li	{
+	padding: 5px;
+	border: 1px solid #333;
+	border-top: 0;
+	cursor: pointer;
+}
+
+.result li:hover	{
+	background: #f5f5f5;
+}
+
+.clear {
+	clear:both;
+}

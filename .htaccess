@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /WAD/profile.php?user_name=$1
+PHP_FLAG output_buffering on
+# Displaying PHP errors
+#php_flag display_errors on
+#php_value error_reporting 6143
+#COMMENTED NEEDED============
